@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+}
+* {
+box-sizing: border-box;
+}
+
+.photo {
+margin-top: 100px;
+margin-left: 20pxpx;
+border: 1px solid #ccc;
+display: inline-block;
+width: 500px;
+border: 1px solid black;
+border-radius: 20px;
+box-shadow: 5px 10px #888888;
+
+
+}
+
+.photo:hover {
+border: 1px solid #777;
+}
+
+.photo img {
+width: 100%;
+height:auto;
+border: 1px solid red;
+border-radius: 20px;
+
+}
+
+div.desc {
+padding: 10px;
+text-align: center;
+}
+.price{
+margin-top: auto;
+margin-bottom: auto;
+padding-top: 2px;
+padding-bottom: 2px;
+text-align: left;
+}
+#price1{
+display: inline;
+color:blue;
+padding-right: 5px;
+font-size: x-large;
+font-weight: 700;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#price2{
+display: inline;
+color:rgb(97, 59, 132);
+padding-right: 5px;
+font-size: x-large;
+font-weight: 700;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#butt{
+height: 35px;
+background-color: #1DD1A1;
+/* color:white; */
+border:1px solid black;
+border-radius: 5px;
+padding-right: 5px;
+
+}
+#link{
+color:white;
+/* font: 14px Rubik, sans-serif; */
+font-size: x-large;
+
+
+}
+h1{
+color:white;
+}
+/*Responsiveness*/
+@media only screen and (max-width: 700px) {
+.photo  {
+width: 49.99999%;
+margin: 6px 0;
+
+}
+}
+@media only screen and (max-width: 500px) {
+.photo {
+width: 100%;
+
+}
+}
+
+.clearfix:after {
+content: "";
+display: table;
+clear: both;
+}
